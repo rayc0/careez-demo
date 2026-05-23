@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>CareEZ · 照護食 Safety Demo — HKEX IFS 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="desktop-bg">
+    <div class="demo-header">
+      <span class="demo-tag">CareEZ · HKEX IFS 2026 · Interactive Demo</span>
+    </div>
+
+    <div class="device-frame" role="main" aria-label="CareEZ mobile application demo">
+      <!-- Device status bar (in dark bezel, white text) -->
+      <div class="device-status-bar">
+        <span class="status-time">9:41</span>
+        <div class="status-right">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="white" aria-hidden="true">
+            <rect x="0" y="7" width="3" height="5" rx="0.8" opacity="0.4"/>
+            <rect x="4" y="5" width="3" height="7" rx="0.8" opacity="0.6"/>
+            <rect x="8" y="2" width="3" height="10" rx="0.8" opacity="0.8"/>
+            <rect x="12" y="0" width="3" height="12" rx="0.8"/>
+          </svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="white" aria-hidden="true">
+            <path d="M8 9a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm0-3a4 4 0 0 1 2.83 1.17l-1.42 1.42A2 2 0 0 0 8 8a2 2 0 0 0-1.41.59L5.17 7.17A4 4 0 0 1 8 6zm0-3a7 7 0 0 1 4.95 2.05L11.53 6.47A5 5 0 0 0 8 5a5 5 0 0 0-3.54 1.47L3.05 5.05A7 7 0 0 1 8 3z"/>
+          </svg>
+          <svg width="25" height="12" viewBox="0 0 25 12" fill="none" aria-hidden="true">
+            <rect x="0.5" y="0.5" width="20" height="11" rx="2" stroke="white" stroke-opacity="0.5"/>
+            <rect x="2" y="2" width="14" height="8" rx="1" fill="white"/>
+            <rect x="21" y="4" width="3" height="4" rx="1" fill="white" fill-opacity="0.5"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- App content injected here -->
+      <div id="app-root" class="app-root"></div>
+
+      <!-- Home indicator -->
+      <div class="device-home-indicator" aria-hidden="true"></div>
+    </div>
+
+    <div class="demo-footer">
+      Live API calls to www.seniordeli.com — no PHI stored ·
+      <span style="opacity:0.6;">IDDSI classification + voice aspiration screen via real endpoints</span>
+      <br>
+      <span style="font-size:10px;opacity:0.5;">Carewells Limited · <a href="https://careez.org" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px">careez.org</a> · <a href="mailto:hello@careez.org" style="color:inherit;text-decoration:underline;text-underline-offset:2px">hello@careez.org</a></span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
