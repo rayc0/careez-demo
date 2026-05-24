@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1428;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#132046;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E5FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#29B6F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="200" height="200" rx="36" fill="url(#bgGrad)"/>
+
+  <!-- Monogram: stylized "Cz" -->
+  <!-- Large C arc -->
+  <path d="M120 42 Q58 42 58 100 Q58 158 120 158"
+    fill="none" stroke="url(#accentGrad)" stroke-width="14"
+    stroke-linecap="round"/>
+
+  <!-- z letterform (angular, tech feel) -->
+  <path d="M105 72 L145 72 L105 128 L145 128"
+    fill="none" stroke="#FFFFFF" stroke-width="11"
+    stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Accent dot on C inner -->
+  <circle cx="82" cy="100" r="8" fill="#00E5FF" opacity="0.9"/>
+
+  <!-- Bottom accent bar -->
+  <rect x="40" y="176" width="120" height="4" rx="2" fill="url(#accentGrad)" opacity="0.7"/>
+</svg>
